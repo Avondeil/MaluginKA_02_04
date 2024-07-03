@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Sber</string>
+    <string name="registr">Регистрация</string>
+    <string name="textViewLogin_Password">Введите ваш логин и пароль</string>
+    <string name="login_string">Логин</string>
+    <string name="password_string">Пароль</string>
+    <string name="login_to_acc">Войти</string>
+    <string name="cred_calc">Кредитный калькулятор</string>
+</resources>

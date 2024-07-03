@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:layout_width="78dp"
+        android:layout_height="70dp"
+        android:src="@drawable/sber"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="150dp">
+
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="65dp"
+            android:gravity="center"
+            android:text="@string/registr"
+            android:textColor="@color/green"
+            android:textSize="36sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/green">
+        
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="65dp"
+            android:layout_marginStart="55dp"
+            android:text="@string/textViewLogin_Password"
+            />
+
+
+        <EditText
+            android:id="@+id/loginEdit"
+            android:layout_width="282dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:textColorHint="@color/black"
+            android:hint="@string/login_string"
+            android:layout_marginStart="55dp"
+            />
+
+        <EditText
+            android:id="@+id/passwordEdit"
+            android:layout_width="282dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:password="true"
+            android:textColorHint="@color/black"
+            android:hint="@string/password_string"
+            android:layout_marginStart="55dp"
+/>
+        
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/buttonLogin"
+            android:layout_width="350dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="185dp"
+            android:textColor="@color/white"
+            android:background="@drawable/button_style"
+            android:text="@string/login_to_acc"
+            android:layout_gravity="center"
+            android:textSize="24sp"
+            android:textAllCaps="true"
+            >
+
+        </androidx.appcompat.widget.AppCompatButton>
+        
+    </LinearLayout>
+  
+
+</LinearLayout>
